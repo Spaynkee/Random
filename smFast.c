@@ -114,5 +114,5 @@ void sum4(){
   for(int i=1500000000;i<2000000001;i++){
       sumsLoc[23] += i;
   }
-  printf("Sum4: The current sum is %ld\n", sumsLoc[13]);
+  printf("Sum4: The current sum is %ld\n", sumsLoc[23]);
 }
