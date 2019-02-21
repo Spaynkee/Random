@@ -26,7 +26,7 @@ int main(){
   int status;
   char *sm2;
     /* make the key: */
-    if ((key = ftok("smFar.c", 'R')) == -1) /*Here the file must exist */ 
+    if ((key = ftok("smFast.c", 'R')) == -1) /*Here the file must exist */ 
     {
         perror("ftok");
         exit(1);
